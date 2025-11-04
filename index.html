@@ -3,155 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>தமிழ் மலர் நிலையம் - திருமண மற்றும் விழா அலங்காரம்</title>
+  <title>தமிழ் மலர் நிலையம் | திருமண & விழா அலங்காரம்</title>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: 'Noto Sans Tamil', sans-serif;
-      margin: 0;
-      background-color: #fffafc;
-      color: #333;
-    }
-    header {
-      background: linear-gradient(90deg, #e91e63, #f06292);
-      color: white;
-      text-align: center;
-      padding: 30px 10px;
-    }
-    header h1 { margin: 0; font-size: 2rem; }
-    nav {
-      background-color: #f8bbd0;
-      text-align: center;
-      padding: 10px;
-    }
-    nav a {
-      text-decoration: none;
-      color: #880e4f;
-      margin: 0 15px;
-      font-weight: bold;
-    }
-    section {
-      padding: 30px 20px;
-      max-width: 1100px;
-      margin: auto;
-    }
-    h2 {
-      color: #c2185b;
-      text-align: center;
-      margin-bottom: 20px;
-    }
-    .services {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-    .card {
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      overflow: hidden;
-      text-align: center;
-    }
-    .card img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-    }
-    .card h3 {
-      color: #d81b60;
-      margin: 10px 0;
-    }
-    .card p {
-      padding: 0 15px 15px;
-      color: #555;
-    }
-    footer {
-      background-color: #e91e63;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      margin-top: 30px;
-    }
-    .contact {
-      background-color: #fff0f5;
-      border-radius: 10px;
-      padding: 20px;
-    }
+    body { font-family: 'Noto Sans Tamil', sans-serif; margin:0; background:#fffafc; color:#333; }
+    header { position: relative; height: 60vh; background: url('hero-flowers.jpg') center/cover no-repeat; }
+    header .overlay { position:absolute; top:0; left:0; right:0; bottom:0; background: rgba(0,0,0,0.4); display:flex; justify-content:center; align-items:center; }
+    header .overlay h1 { color:white; font-size:3rem; text-align:center; margin:0; }
+    nav { background:#f8bbd0; text-align:center; padding:12px; }
+    nav a { color:#880e4f; text-decoration:none; margin:0 15px; font-weight:bold; }
+    section { padding:40px 20px; max-width:1100px; margin:auto; }
+    .cards { display:grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap:24px; }
+    .card { background:#fff; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.1); overflow:hidden; }
+    .card img { width:100%; height:200px; object-fit:cover; }
+    .card h3 { color:#d81b60; margin:16px 0 0 0; padding:0 16px; }
+    .card p { padding:0 16px 16px; color:#555; }
+    footer { background:#e91e63; color:white; text-align:center; padding:20px; }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>🌸 தமிழ் மலர் நிலையம் 🌸</h1>
-    <p>திருமணங்கள், விழாக்கள் மற்றும் அனைத்து நிகழ்வுகளுக்கும் மலர் அலங்காரம்</p>
+    <div class="overlay">
+      <h1>தமிழ் மலர் நிலையம்<br>உங்கள் மகிழ்ச்சிக்கு பூக்கள்!</h1>
+    </div>
   </header>
 
   <nav>
-    <a href="#home">முகப்பு</a>
-    <a href="#services">சேவைகள்</a>
-    <a href="#gallery">படங்கள்</a>
-    <a href="#contact">தொடர்பு</a>
+    <a href="index.html">முகப்பு</a>
+    <a href="services.html">சேவைகள்</a>
+    <a href="gallery.html">படங்கள்</a>
+    <a href="contact.html">தொடர்பு</a>
   </nav>
 
-  <section id="home">
-    <h2>எங்கள் மலர் நிலையம்</h2>
-    <p style="text-align:center;">நாங்கள் மலர் அலங்காரம், மாலை தயாரிப்பு, திருமண மேடை அலங்காரம், மத வழிபாட்டு பூ அலங்காரம் உள்ளிட்ட அனைத்து வகை சேவைகளையும் வழங்குகிறோம். உங்கள் மகிழ்ச்சியான நாளை மேலும் அழகாக்கும் மலர்களுடன் நாங்கள் எப்போதும் தயார்.</p>
+  <section id="intro">
+    <h2>எங்களை பற்றி</h2>
+    <p>நாங்கள் திருமண மாலை, மண்டபம் அலங்காரம், வீட்டு விழா, பூஜை மலர்கள் உள்ளிட்ட அனைத்து வகை அலங்கார சேவைகளையும் தரமான முறையில் வழங்குகிறோம். உங்கள் நாள் மென்மையான மலர்களால் நினைவாக மாறட்டும்.</p>
   </section>
 
-  <section id="services">
-    <h2>எங்கள் சேவைகள்</h2>
-    <div class="services">
+  <section id="services-preview">
+    <h2>முக்கிய சேவைகள்</h2>
+    <div class="cards">
       <div class="card">
-        <img src="https://images.unsplash.com/photo-1560976810-7086e94dc892?auto=format&fit=crop&w=800&q=80" alt="திருமண அலங்காரம்">
-        <h3>💍 திருமண அலங்காரம்</h3>
-        <p>திருமண மண்டபம், மேடை, வரவேற்பு பூ அலங்காரம் — அனைத்தும் அழகாகவும் நேர்த்தியாகவும்.</p>
+        <img src="wedding-decoration.jpg" alt="திருமண அலங்காரம்">
+        <h3>திருமண அலங்காரம்</h3>
+        <p>மண்டபம், வரவேற்பு மேடை உள்பட முழுச்சேவை.</p>
       </div>
       <div class="card">
-        <img src="https://images.unsplash.com/photo-1600704276400-7afc5b1d1f45?auto=format&fit=crop&w=800&q=80" alt="வீட்டில் விழா அலங்காரம்">
-        <h3>🏠 வீட்டு விழா அலங்காரம்</h3>
-        <p>குழந்தை பெயரிடுதல், திருமண நாள், விழாக்கள் — உங்கள் வீட்டை மலர்களால் அலங்கரிக்கிறோம்.</p>
+        <img src="pooja-flowers.jpg" alt="பூஜை மலர்கள்">
+        <h3>பூஜை & மாலை</h3>
+        <p>தைவடிகள், வழிபாட்டு பூ அலங்காரம், மாலைகள்.</p>
       </div>
       <div class="card">
-        <img src="https://images.unsplash.com/photo-1598522537680-7f178b079d1c?auto=format&fit=crop&w=800&q=80" alt="பூஜை மலர்கள்">
-        <h3>🙏 பூஜை மலர்கள்</h3>
-        <p>கோயில் பூஜை மற்றும் மத வழிபாட்டுக்கான புது மலர்கள், மாலைகள், தூபங்கள்.</p>
+        <img src="birthday-decor.jpg" alt="பிறந்தநாள் அலங்காரம்">
+        <h3>விழா அலங்காரம்</h3>
+        <p>பிறந்தநாள், உற்சவங்கள், வீட்டுவிழா அலங்காரம்.</p>
       </div>
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1621692624781-473a4a5a8f9c?auto=format&fit=crop&w=800&q=80" alt="பிறந்தநாள் அலங்காரம்">
-        <h3>🎂 பிறந்தநாள் அலங்காரம்</h3>
-        <p>பிறந்தநாள் மற்றும் சிறப்பு நிகழ்வுகளுக்கான மலர் மேடை மற்றும் கேக் டேபிள் அலங்காரம்.</p>
-      </div>
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1600447331957-9b7cbdddfb86?auto=format&fit=crop&w=800&q=80" alt="மாலைகள்">
-        <h3>🌼 மாலைகள் மற்றும் பூக்கள்</h3>
-        <p>திருமண மாலைகள், நெற்றிப்பூ, ஜடாபூ, சடாப்பூ – சிறந்த தரத்தில்.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="gallery">
-    <h2>படங்கள்</h2>
-    <div class="services">
-      <img src="https://images.unsplash.com/photo-1616627570651-5157d1f6a0a7?auto=format&fit=crop&w=800&q=80" alt="flower1">
-      <img src="https://images.unsplash.com/photo-1617196037303-32c8f7880840?auto=format&fit=crop&w=800&q=80" alt="flower2">
-      <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?auto=format&fit=crop&w=800&q=80" alt="flower3">
-      <img src="https://images.unsplash.com/photo-1619978851462-23b9d532d234?auto=format&fit=crop&w=800&q=80" alt="flower4">
-    </div>
-  </section>
-
-  <section id="contact">
-    <h2>தொடர்பு கொள்ள</h2>
-    <div class="contact">
-      <p>📍 முகவரி: 12, மலர் தெரு, மதுரை - 625001</p>
-      <p>📞 தொலைபேசி: +91 98765 43210</p>
-      <p>💬 WhatsApp: <a href="https://wa.me/919876543210">இங்கே கிளிக் செய்யவும்</a></p>
-      <p>📧 மின்னஞ்சல்: info@tamilflowerstore.com</p>
-      <iframe src="https://www.google.com/maps?q=Madurai&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="250" style="border:0;"></iframe>
     </div>
   </section>
 
   <footer>
-    <p>© 2025 தமிழ் மலர் நிலையம் | அழகான மலர்களுடன் உங்கள் மகிழ்ச்சி நிமிடங்கள்</p>
+    <p>© 2025 தமிழ் மலர் நிலையம் | அழகான மலர்களின் உறைவிடம்</p>
   </footer>
 
 </body>
