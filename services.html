@@ -80,5 +80,43 @@
   <p>© 2025 தமிழ் மலர் நிலையம் | மலர்களால் மகிழ்ச்சி</p>
 </footer>
 
+<!-- Floating Contact Buttons -->
+<style>
+.floating-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1000;
+}
+.floating-buttons a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #25D366;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+.call-btn {
+    background-color: #128C7E;
+}
+</style>
+
+<div class="floating-buttons">
+    <a href="https://wa.me/919876543210" target="_blank" title="WhatsApp">
+        💬
+    </a>
+    <a href="tel:+919876543210" class="call-btn" title="Call">
+        📞
+    </a>
+</div>
+
 </body>
 </html>

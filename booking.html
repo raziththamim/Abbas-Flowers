@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ஆர்டர் செய்யுங்கள் | அப்பாஸ் மலர் நிலையம்</title>
+    <style>
+        body { font-family: 'Noto Sans Tamil', sans-serif; background-color: #fffafc; margin: 0; }
+        header { background-color: #e91e63; color: white; padding: 15px; text-align: center; }
+        form { max-width: 600px; margin: 30px auto; background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+        input, textarea, select { width: 100%; padding: 10px; margin-bottom: 15px; border-radius: 5px; border: 1px solid #ccc; }
+        button { background-color: #e91e63; color: white; border: none; padding: 12px 20px; border-radius: 5px; cursor: pointer; }
+        button:hover { background-color: #c2185b; }
+        footer { text-align: center; padding: 10px; color: white; background: #e91e63; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🌺 ஆர்டர் செய்யுங்கள்</h1>
+    <p>திருமணங்கள், பிறந்தநாள் விழா, பூஜை அலங்காரம் – எல்லா மலர்களுக்கும் ஆர்டர் செய்யலாம்</p>
+</header>
+
+<form action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST">
+    <label>பெயர்:</label>
+    <input type="text" name="name" required>
+
+    <label>தொலைபேசி எண்:</label>
+    <input type="tel" name="phone" required>
+
+    <label>நிகழ்ச்சி வகை:</label>
+    <select name="event">
+        <option>திருமணம்</option>
+        <option>பிறந்தநாள் விழா</option>
+        <option>பூஜை அலங்காரம்</option>
+        <option>மற்றவை</option>
+    </select>
+
+    <label>தேதி:</label>
+    <input type="date" name="date" required>
+
+    <label>சேவை விவரம்:</label>
+    <textarea name="details" rows="4" placeholder="தேவையான மலர்கள் அல்லது அலங்காரம் விவரம்..."></textarea>
+
+    <button type="submit">ஆர்டர் அனுப்பவும்</button>
+</form>
+
+<footer>
+    <p>© 2025 அப்பாஸ் மலர் நிலையம் | அழகான மலர்களின் உறைவிடம்</p>
+</footer>
+
+<!-- Floating WhatsApp + Call -->
+<div class="floating-buttons">
+    <a href="https://wa.me/919876543210" target="_blank" title="WhatsApp">💬</a>
+    <a href="tel:+919876543210" class="call-btn" title="Call">📞</a>
+</div>
+
+</body>
+</html>
